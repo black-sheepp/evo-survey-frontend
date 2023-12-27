@@ -33,7 +33,7 @@ function Navbar({ login, logoutClick }) {
 					{login ? (
 						<>
 							<button className='text-white mx-2 bg-[#0000FF] hover:bg-[#29297e] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center'>
-								Shivam
+								Admin
 							</button>
 							<button
 								onClick={handleLogout}
