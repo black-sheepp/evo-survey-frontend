@@ -1,7 +1,4 @@
 
-## Overview
-This section provides a brief overview of the repository and its purpose. It mentions that the project is a Survey Form Submission application built with the MERN stack and includes authentication for admin access.
-
 ## Tech Stack
 
 ### Backend
@@ -58,4 +55,3 @@ This section provides instructions on how users can interact with the deployed a
 - Emphasizes the importance of proper configuration of environment variables in both backend and frontend.
 - Suggests modifying the authentication middleware (`verifyToken`) based on specific security requirements.
 - Encourages customization of the user interface components and styles to suit individual design preferences.
-# evo-survey-frontend

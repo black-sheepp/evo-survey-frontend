@@ -5,14 +5,16 @@ import Axios from "axios";
 function Navbar({ login, logoutClick }) {
 	const handleLogout = async () => {
 		try {
-			const response = await Axios.get("/sign-out");
+			// const response = await Axios.get("/sign-out");
 
-			if (response.status === 200) {
-				localStorage.removeItem("userData");
-				logoutClick(false);
-			} else {
-				console.error("Logout failed with status:", response.status);
-			}
+			// if (response.status === 200) {
+			// 	localStorage.removeItem("userData");
+			// 	logoutClick(false);
+			// } else {
+			// 	console.error("Logout failed with status:", response.status);
+			// }
+			localStorage.removeItem("userData");
+			logoutClick(false);
 		} catch (error) {
 			console.error("Error during logout:", error);
 		}
